@@ -28,3 +28,7 @@ boxplot(len ~ dose + supp, data = teeth)
     # Calculate mean difference in permuted data
     mean(teeth$len[supp_perm == "OJ"]) - mean(teeth$len[supp_perm == "VC"])
 ```
+
+```{r publish-teeth-growth}
+    wflow_publish("analysis/teeth.Rmd", message = "Analyze teeth growth")
+```

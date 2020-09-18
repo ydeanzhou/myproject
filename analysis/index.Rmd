@@ -7,5 +7,10 @@ output:
 editor_options:
   chunk_output_type: console
 ---
+Welcome to my research website!
 
-Welcome to my research website.
+
+* [Teeth growth analysis](teeth.html)
+
+*[Next person in the group](https://mingyuqi0914.github.io/myproject/)
+    
